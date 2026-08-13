@@ -1,0 +1,12 @@
+[package]
+name = "bm"
+version = "0.1.0"
+edition = "2021"
+description = "bm — закладки с тегами: X-Query поиск, fzf-выбор, xdg-open. eml-tag на emlbox (MIME-OS)."
+
+[dependencies]
+emlbox = { git = "https://github.com/kostyk348/mime-os", tag = "v0.1.0" }
+serde_json = "1"
+
+[profile.release]
+opt-level = 3
