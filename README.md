@@ -1,5 +1,8 @@
 # bm — закладки с тегами
 
+[![Release](https://img.shields.io/github/v/release/kostyk348/bm?sort=semver&color=blue)](https://github.com/kostyk348/bm/releases)
+[![Last commit](https://img.shields.io/github/last-commit/kostyk348/bm?branch=master)](https://github.com/kostyk348/bm/commits/master)
+
 Поиск закладок по X-Query, fzf-выбор, открытие через xdg-open. Запись — атомарный
 `.eml` (eml-tag), поиск — header-only scan, без индекса и демонов.
 
